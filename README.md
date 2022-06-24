@@ -39,7 +39,7 @@ refer to my other ingress template
 
 #### update ingress:
 
-Call the funcation update_ingress(cluster_details,k8s_object_name="minimal-ingress")
+Call the function update_ingress(cluster_details,k8s_object_name="minimal-ingress")
 
 NOTE: You can't update the metadata name of existing ingress.
 
@@ -49,6 +49,6 @@ And run following command:
 
 #### get the list of all ingress:
 
-call the funcation delete_ingress(cluster_details,k8s_object_name="minimal-ingress")
+call the function delete_ingress(cluster_details,k8s_object_name="minimal-ingress")
 
 `python3 ingress.py`
