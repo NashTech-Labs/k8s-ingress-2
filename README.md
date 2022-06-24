@@ -47,7 +47,7 @@ And run following command:
 
 `python3 ingress.py`
 
-#### get the list of all ingress:
+#### delete ingress:
 
 call the function delete_ingress(cluster_details,k8s_object_name="minimal-ingress")
 
